@@ -1,4 +1,5 @@
 /* Reset some default styles */
+
 * {
 	margin: 0;
 	padding: 0;
@@ -6,35 +7,40 @@
 }
 
 /* Style the header */
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
-	
-}
 
-.header {
-	background-color: #333;
-	color: #fff;
-	padding: 20px;
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #f2f2f2;
+  }
+
+
+.logo{
+	margin-left: 40px;
 }
 .jumbotron {
-	background-image: url('https://www.example.com/image.jpg');
+	background-image: url('images/abstract-background.jpg');
 	background-size: cover;
 	background-position: center;
 	height: 500px;
 	display: flex;
 	flex-direction: column;
-	justify-content: left;
-	/*align-items: left;*/
+	justify-content: center;
+
+	align-items: center;
 	text-align: left;
-	color: whitesmoke;
+	color: black;
 	padding: 20px;
 }
 .jumbotron h1 {
 	font-size: 50px;
 	margin-bottom: 20px;
 }
+
+
 .jumbotron p {
 	font-size: 24px;
 	margin-bottom: 40px;
@@ -56,7 +62,7 @@ nav ul {
 
 nav li {
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 40px;
 }
 
 nav a {
@@ -87,4 +93,11 @@ footer {
 
 .welcome-text{
 	margin-top:100px;
+}
+
+.projects-title{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:40px;
 }
